@@ -1,4 +1,5 @@
 .errbot-venv
+errbot
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

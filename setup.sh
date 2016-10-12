@@ -15,3 +15,5 @@ command -v virtualenv >/dev/null 2>&1 || die "virtualenv not installed. (pip ins
 
 virtualenv --python "$(which python3)" .errbot-venv || die "Could not create virtual environment."
 ./.errbot-venv/bin/pip install errbot || die "Could not install errbot."
+
+ln -s ./.errbot-venv/bin/errbot errbot
