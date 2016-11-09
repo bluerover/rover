@@ -24,4 +24,5 @@ pip() {
 pip install errbot || die "Could not install errbot."
 pip install slackclient || die "Could not install slackclient."
 
+mkdir data
 ln -s "${errbot_venv}/bin/errbot" errbot
